@@ -1,0 +1,181 @@
+
+
+.colors {
+    width: 500px;
+}
+
+.colors>div {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+
+}
+
+.colors>div>div {
+    width: 70px;
+    height: 70px;
+    border-radius: 70%;
+    margin-right: 10px;
+    border: solid 1px gray;
+
+}
+
+.pr-1 {
+    background-color: $primary-1;
+}
+
+.pr-2 {
+    background-color: $primary-2;
+}
+
+.pr-3 {
+    background-color: $primary-3;
+}
+
+.pr-4 {
+    background-color: $primary-4;
+}
+
+.pr-1-light-1 {
+    background-color: $pr1-light-1;
+}
+
+.pr-2-light-1 {
+    background-color: $pr2-light-1;
+}
+
+.pr-3-light-1 {
+    background-color: $pr3-light-1;
+}
+.pr-4-light-1 {
+    background-color: $pr4-light-1;
+}
+
+.pr-1-dark-1 {
+    background-color: $pr1-dark-1;
+}
+
+.pr-2-dark-1 {
+    background-color: $pr2-dark-1;
+}
+.pr-3-dark-1 {
+    background-color: $pr3-dark-1;
+}
+.pr-4-dark-1 {
+    background-color: $pr4-dark-1;
+}
+
+/* 2 */
+
+.pr-1-light-2 {
+    background-color: $pr1-light-2;
+}
+
+.pr-2-light-2 {
+    background-color: $pr2-light-2;
+}
+
+.pr-3-light-2 {
+    background-color: $pr3-light-2;
+}
+.pr-4-light-2 {
+    background-color: $pr4-light-2;
+}
+
+.pr-1-dark-2 {
+    background-color: $pr1-dark-1;
+}
+
+.pr-2-dark-2 {
+    background-color: $pr2-dark-1;
+}
+.pr-3-dark-2 {
+    background-color: $pr3-dark-1;
+}
+.pr-4-dark-2 {
+    background-color: $pr4-dark-1;
+}
+
+/* 3 */
+
+
+.pr-1-light-3 {
+    background-color: $pr1-light-3;
+}
+
+.pr-2-light-3 {
+    background-color: $pr2-light-3;
+}
+
+.pr-3-light-3 {
+    background-color: $pr3-light-3;
+}
+.pr-4-light-3 {
+    background-color: $pr4-light-3;
+}
+
+.pr-1-dark-3 {
+    background-color: $pr1-dark-3;
+}
+
+.pr-2-dark-3 {
+    background-color: $pr2-dark-3;
+}
+.pr-3-dark-3 {
+    background-color: $pr3-dark-3;
+}
+.pr-4-dark-3 {
+    background-color: $pr4-dark-3;
+}
+
+
+
+@mixin font ($size: 35px, $font: $font-bold, $color: red) {
+font-size: $size;
+font-family: $font;
+color: $color;
+}
+
+input {
+    background-color: lightblue;
+    border: none;
+}
+
+.error-enter {
+    display: inline-block;
+    position: relative;
+    input {
+    border: solid $primary-2 1px;
+    background-color: $light;
+    width: 320px;
+    height: 50px;
+    font-size: 13px;
+    font-family: $font-regular;
+    color: $primary-2;
+    }
+    &::before {
+        content: '';
+        display: block;
+        width: 1px;
+        height: 15px;
+        background-color: $primary-2;
+        position: absolute;
+        right: 18px;
+        transform: rotate(45deg);
+        top: 15px;
+    }
+    &::after {
+        display: block;
+        width: 1px;
+        height: 15px;
+        background-color: $primary-2;
+        position: absolute;
+        content: '';
+        right: 18px;
+        transform: rotate(-45deg);
+        top: 15px;
+
+    }
+
+}
+

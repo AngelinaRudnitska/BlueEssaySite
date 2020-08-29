@@ -1,0 +1,14 @@
+%box-shadow {
+    box-shadow: 5px 5px 10px black;
+    border-radius: 30px;
+    background-color: lightpink;
+    border: groove darkslateblue 5px;
+}
+
+
+@mixin font($size:35px, $font:$font-bold, $color:$pr4-dark-3) {
+font-size: $size;
+font-family: $font;
+color: $color;
+}
+

@@ -1,0 +1,22 @@
+h1, h2, h3, h4, h5, h6, ul, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    @extend %box-shadow;
+    @include font(35px, $font-bold);
+}
+
+h2 {
+    @include font(33px, $font-bold, $pr4-dark-2);
+}
+
+h3 {
+    @include font(27px);
+}
+
+
+.subtitle {
+    
+}
