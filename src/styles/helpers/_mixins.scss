@@ -3,6 +3,14 @@
     border-radius: 30px;
     background-color: lightpink;
     border: groove darkslateblue 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+%fonts{
+    font-size: 35px;
+    font-family: $font-bold;
+    color: $pr4-dark-3;
 }
 
 
@@ -10,5 +18,16 @@
 font-size: $size;
 font-family: $font;
 color: $color;
+}
+
+@mixin btn ($width, $dg, $height, $font-medium, $border:none, $color:$light){
+    width: $width;
+    background: $dg;
+    height: $height;
+    font-family: $font-regular;
+    border: $border;
+    color: $color;
+    border-radius: 5px;
+    
 }
 

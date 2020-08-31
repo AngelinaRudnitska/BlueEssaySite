@@ -1,95 +1,5 @@
 /*colors*/
 
-
-/*primary*/
-
-/*
-
-$primary-1: #03a9f4;
-$primary-2:#f75e2e;
-$primary-3: #ecfa4d;
-$primary-4: #656a70;
-
-/*lighten 1 level*/
-
-/*
-$pr-1-light-1: mix(#fff, $primary-1, 40%);
-
-$pr-2-light-1: mix(#fff, $primary-1, 40%);
-
-$pr-1-light-3: mix(#fff, $primary-1, 40%);
-
-$pr-1-light-4: mix(#fff, $primary-1, 40%);
-
-/*darken level 1 */
-/*
-
-$pr-1-dark-1: mix(#000, $primary-1, 30%);
-$pr-1-dark-2: mix(#000, $primary-2, 30%);
-$pr-1-dark-3: mix(#000, $primary-3, 30%);
-$pr-1-dark-4: mix(#000, $primary-4, 30%);
-
-/*lighten 2 level */
-/*
-
-$pr-1-light-1: mix(#fff, $primary-1, 50%);
-
-$pr-1-light-2: mix(#fff, $primary-1, 50%);
-
-$pr-1-light-3: mix(#fff, $primary-1, 50%);
-
-$pr-1-light-4: mix(#fff, $primary-1, 50%);
-
-
-/*darken 2 level */
-/*
-
-$pr-1-dark-1: mix(#000, $primary-1, 40%);
-$pr-1-dark-2: mix(#000, $primary-2, 40%);
-$pr-1-dark-3: mix(#000, $primary-3, 40%);
-$pr-1-dark-4: mix(#000, $primary-4, 40%);
-
-/*lighten 3 level */
-/*
-
-$pr-1-light-1: mix(#fff, $primary-1, 60%);
-
-$pr-1-light-2: mix(#fff, $primary-1, 60%);
-
-$pr-1-light-3: mix(#fff, $primary-1, 60%);
-
-$pr-1-light-4: mix(#fff, $primary-1, 60%);
-
-
-/*darken 3 level */
-/*
-
-$pr-1-dark-1: mix(#000, $primary-1, 50%);
-$pr-1-dark-2: mix(#000, $primary-2, 50%);
-$pr-1-dark-3: mix(#000, $primary-3, 50%);
-$pr-1-dark-4: mix(#000, $primary-4, 50%);
-
-/*lighten 4 level */
-/*
-
-$pr-1-light-1: mix(#fff, $primary-1, 70%);
-
-$pr-1-light-2: mix(#fff, $primary-1, 70%);
-
-$pr-1-light-3: mix(#fff, $primary-1, 70%);
-
-$pr-1-light-4: mix(#fff, $primary-1, 70%);
-
-
-/*darken 4 level */
-/*
-
-$pr-1-dark-1: mix(#000, $primary-1, 60%);
-$pr-1-dark-2: mix(#000, $primary-2, 60%);
-$pr-1-dark-3: mix(#000, $primary-3, 60%);
-$pr-1-dark-4: mix(#000, $primary-4, 60%);
-*/
-
 //primary
 $primary-1:#03a9f4;
 $primary-2:#f75e2e;
@@ -132,9 +42,11 @@ $pr4-dark-3:mix($primary-4, #000, 30%);
 
 
 $font-regular: 'Poppins';
-$font-bold: 'Poppins-SBold';
+$font-semibold: 'Poppins-SBold';
 $font-light: 'Poppins-Light';
 $font-medium: 'Poppins-Medium';
+$font-bold: 'Poppins-Bold';
+
 
 
 

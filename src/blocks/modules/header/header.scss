@@ -1,6 +1,6 @@
 
 
-.colors {
+/*.colors {
     width: 500px;
 }
 
@@ -8,6 +8,7 @@
     display: flex;
     justify-content: flex-end;
     margin-top: 20px;
+    align-items: center;
 
 }
 
@@ -19,7 +20,50 @@
     border: solid 1px gray;
 
 }
+*/
 
+
+.colors {
+    width: 500px;
+    font-family: $font-italic;
+    div {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+        align-items: center;
+        div {
+            width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin-right: 10px;
+        border: solid 1px gray;
+
+        &:hover{
+            border: solid 1px red;
+        }
+        }
+    }
+}
+
+
+ul.menu {
+    width: 500px;
+    li {
+        background-color: yellow;
+        a{
+            color: red;
+            &:visited{
+                color: lime;
+            }
+            &:hover{
+                color: orange;
+            }
+            &:active{
+                color: magenta;
+            }
+        }
+    }
+}
 .pr-1 {
     background-color: $primary-1;
 }
@@ -129,6 +173,66 @@
 }
 
 
+.name {
+    margin: 25px;
+}
+
+h1 {
+  
+    @include font(35px, $font-bold);
+    
+}
+
+h2 {
+ 
+    @include font(33px, $font-medium);
+    padding: 10px;
+    &:hover {
+        color: $light;
+        background-color: $primary-1;
+        
+    }
+}
+
+h3 {
+    @include font(27px, $font-medium);
+}
+
+
+h4 {
+    @include font(22px, $font-medium);
+}
+
+
+h5 {
+    @include font(17px, $font-medium);
+}
+
+h6 {
+    @include font(15px, $font-medium);
+}
+
+p { 
+    display: flex;
+    @include font(14px, $font-regular);
+    margin: 20px;
+}
+
+.list {
+    margin-left: 25px;
+    ul{
+        margin: 25px;
+    }
+    li{
+        @include font(15px, $font-medium);
+        list-style-type: none;
+    }
+    i {
+        color: $light;
+        background-color: $primary-1;
+    }
+}
+
 
 @mixin font ($size: 35px, $font: $font-bold, $color: red) {
 font-size: $size;
@@ -139,6 +243,10 @@ color: $color;
 input {
     background-color: lightblue;
     border: none;
+}
+
+.btn1 {
+    margin: 25px;
 }
 
 .error-enter {
