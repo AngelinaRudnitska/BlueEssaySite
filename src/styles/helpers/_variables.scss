@@ -1,4 +1,4 @@
-/*colors*/
+//colors
 
 //primary
 $primary-1:#03a9f4;
@@ -7,50 +7,60 @@ $primary-3:#ecfa4d;
 $primary-4:#656a70;
 $light:#fff;
 $dark:#000;
-//light 1 level
-$pr1-light-1:mix($primary-1, #fff, 60%);
-$pr2-light-1:mix($primary-2, #fff, 60%);
-$pr3-light-1:mix($primary-3, #fff, 60%);
-$pr4-light-1:mix($primary-4, #fff, 60%);
+//lighten 1 level
+$pr-1-light-1:mix(#fff,$primary-1,30%);
+$pr-2-light-1:mix(#fff,$primary-2,30%);
+$pr-3-light-1:mix(#fff,$primary-3,30%);
+$pr-4-light-1:mix(#fff,$primary-4,30%);
+//lighten 2 level
+$pr-1-light-2:mix(#fff,$primary-1,50%);
+$pr-2-light-2:mix(#fff,$primary-2,50%);
+$pr-3-light-2:mix(#fff,$primary-3,50%);
+$pr-4-light-2:mix(#fff,$primary-4,50%);
+//lighten 3 level
+$pr-1-light-3:mix(#fff,$primary-1,80%);
+$pr-2-light-3:mix(#fff,$primary-2,80%);
+$pr-3-light-3:mix(#fff,$primary-3,80%);
+$pr-4-light-3:mix(#fff,$primary-4,80%);
+//lighten 4 level
+$pr-1-light-4:mix(#fff,$primary-1,90%);
+$pr-2-light-4:mix(#fff,$primary-2,90%);
+$pr-3-light-4:mix(#fff,$primary-3,90%);
+$pr-4-light-4:mix(#fff,$primary-4,90%);
+
+
+
+
 //darken 1 level
-$pr1-dark-1:mix($primary-1, #000, 80%);
-$pr2-dark-1:mix($primary-2, #000, 80%);
-$pr3-dark-1:mix($primary-3, #000, 80%);
-$pr4-dark-1:mix($primary-4, #000, 80%);
-//light 2 level
-$pr1-light-2:mix($primary-1, #fff, 25%);
-$pr2-light-2:mix($primary-2, #fff, 25%);
-$pr3-light-2:mix($primary-3, #fff, 25%);
-$pr4-light-2:mix($primary-4, #fff, 25%);
+$pr-1-dark-1:mix(#000,$primary-1,30%);
+$pr-2-dark-1:mix(#000,$primary-2,30%);
+$pr-3-dark-1:mix(#000,$primary-3,30%);
+$pr-4-dark-1:mix(#000,$primary-4,30%);
 //darken 2 level
-$pr1-dark-2:mix($primary-1, #000, 50%);
-$pr2-dark-2:mix($primary-2, #000, 50%);
-$pr3-dark-2:mix($primary-3, #000, 50%);
-$pr4-dark-2:mix($primary-4, #000, 50%);
-//light 3 level
-$pr1-light-3:mix($primary-1, #fff, 10%);
-$pr2-light-3:mix($primary-2, #fff, 10%);
-$pr3-light-3:mix($primary-3, #fff, 10%);
-$pr4-light-3:mix($primary-4, #fff, 10%);
+$pr-1-dark-2:mix(#000,$primary-1,50%);
+$pr-2-dark-2:mix(#000,$primary-2,50%);
+$pr-3-dark-2:mix(#000,$primary-3,50%);
+$pr-4-dark-2:mix(#000,$primary-4,50%);
 //darken 3 level
-$pr1-dark-3:mix($primary-1, #000, 30%);
-$pr2-dark-3:mix($primary-2, #000, 30%);
-$pr3-dark-3:mix($primary-3, #000, 30%);
-$pr4-dark-3:mix($primary-4, #000, 30%);
+$pr-1-dark-3:mix(#000,$primary-1,70%);
+$pr-2-dark-3:mix(#000,$primary-2,70%);
+$pr-3-dark-3:mix(#000,$primary-3,70%);
+$pr-4-dark-3:mix(#000,$primary-4,70%);
+//darken 4 level
+$pr-1-dark-4:mix(#000,$primary-1,80%);
+$pr-2-dark-4:mix(#000,$primary-2,80%);
+$pr-3-dark-4:mix(#000,$primary-3,80%);
+$pr-4-dark-4:mix(#000,$primary-4,80%);
 
 
+//poppins
+$font-regular:'Poppins-R';
+$font-medium:'Poppins-M';
+$font-light:'Poppins-L';
+$font-semibold:'Poppins-S';
+$font-bold:'Poppins';
 
+//secondary-font
+$font-secondary-italic:'Open-Sans-I';
+$font-secondary-regular:'Open Sans';
 
-$font-regular: 'Poppins';
-$font-semibold: 'Poppins-SBold';
-$font-light: 'Poppins-Light';
-$font-medium: 'Poppins-Medium';
-$font-bold: 'Poppins-Bold';
-
-
-
-
-$font-bold-2: 'OpenSans-Bold';
-$font-regular-2: 'OpenSans';
-$font-light-2: 'OpenSans-Light';
-$font-italic: 'OpenSans-Italic';

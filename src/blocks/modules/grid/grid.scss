@@ -1,0 +1,84 @@
+.grid{
+    background-color: $primary-1;
+    background-image: url(../../../img/icons_transparent.png);
+}
+.grid h6{
+    padding: 35px;
+    margin-left: -30px;
+    text-align: center;
+font-size: 15px;
+color: $light;
+font-family: 'Poppins-M';
+}
+.grid h1{
+    text-align: center;
+font-size: 35px;
+color: $light;
+padding-bottom: 50px;
+font-family: 'Poppins-M';
+font-weight: bold;
+}
+.boxes{
+    padding-bottom: 40px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 40px;
+}
+.number1{
+   background-color: $light; 
+}
+.number2{
+background-color: $light;
+}
+.number3{
+background-color: $light;
+}
+.boxes h4{
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Poppins-M';
+    padding: 10px;
+}
+.boxes p{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Poppins-M';
+    padding: 10px;
+    color:#51555a;
+}
+.boxes .img1{
+    position: relative;
+    margin-left: 120px;
+    padding: 10px;
+}
+.icon1{
+    position: absolute;
+    margin-left: -92px;
+    padding-top: 35px;
+}
+.icon2{
+    position: absolute;
+    margin-left: -92px;
+    padding-top: 35px;
+}
+.icon3{
+    position: absolute;
+    margin-left: -96px;
+    padding-top: 22px;
+}
+.btn3 {
+    cursor: pointer;
+    position: relative;
+    left: 125%;
+    padding-top: 12px;
+    margin-top: 30px;
+    text-align: center;
+    width: 220px;
+    background-color:$pr-1-dark-1;
+    height: 50px;
+    font-family: "Poppins-S";
+    color: #fff;
+    border: none;
+    margin-left: 10px;
+    outline: 0 !important;
+}
